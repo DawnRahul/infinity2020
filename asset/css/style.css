@@ -1,0 +1,618 @@
+/* **************************** TAG SELECTOR ************************** */
+body {
+  background-color: white;
+  margin: 0;
+  font-family: sans-serif;
+}
+
+
+h2 {
+  font-family: cursive;
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin: 0;
+  padding-top: 74px;
+}
+
+h5 {
+  text-align: center;
+}
+
+img{
+  width: 700px;
+  height: auto;
+
+}
+
+
+
+/* **************************** CLASS SELECTOR ************************** */
+.attribute-links {
+  display: none;
+}
+
+.attribute-free-resource {
+  font-size: 0.75rem;
+}
+
+.contact {
+  margin-left: 30px;
+  margin-top: 30px;
+}
+
+.contact-form {
+  border: 2px solid #cecece;
+  border-radius: 8px 8px 8px 8px;
+  -webkit-border-radius: 8px 8px 8px 8px;
+  -moz-border-radius: 8px 8px 8px 8px;
+  box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  -webkit-box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  -moz-box-shadow: -10px 21px 26px 0px rgba(0,0,0,0.71);
+  width: 560px;
+  height: auto;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 12px;
+  margin-bottom: 38px;
+}
+
+.contact-form button {
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+  transition: background-color 0.7s;
+}
+
+.contact-form button:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.contact-form-div {
+  margin-left: auto;
+  margin-right: 0px;
+}
+
+.contact-form h5 {
+  font-size: 1.75rem;
+  margin-top: 20px;
+  margin-bottom: 24px;
+
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-links {
+  margin-top: 40px;
+
+}
+.contact-links a {
+  position: relative;
+  top: 0px;
+  transition: top 0.6s;
+}
+.contact-links a:hover {
+  top: 14px;
+  text-shadow: 2px 2px 6px;
+}
+.contact-links a{
+  text-decoration: none;
+  color: black;
+  font-size: 0.9rem;
+  font-family: sans-serif;
+  font-weight: 600;
+  border: 2px solid black;
+  border-radius: 4px;
+  padding: 8px 12px;
+  margin-left: 4px;
+  margin-right: 4px;
+}
+
+.contact-links img{
+  height: 18px;
+  width:auto;
+  margin-right:6px;
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+}
+
+.container:nth-child(even) {
+  background-color: #E0ECDE;               /*Fallback background-color*/
+  background-color: rgba(224,236,222,0.39);
+}
+
+.container-1 {
+  background-color: red;
+  background:linear-gradient(90deg, rgba(15,32,39,1), rgba(32,58,67,0.95), rgba(44,83,100,0.4)),
+              url("../images/cover-1.jpg");
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  height: auto;
+  width: 100%;
+
+}
+
+.container-2 h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 60px;
+}
+
+.container-2-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  height: 600px;
+}
+
+.container-2-services-card {
+  width: 35%;
+  height: 200px;
+  background-color: rgba(0,0,255,0.05);
+  padding: 18px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 10px 3px rgba(0,0,255,0.1);
+
+}
+
+.container-2-services-card img {
+  width: 100px;
+  height: 100px;
+  margin-right: 20px;
+  margin-top: 20px;
+}
+
+.container-2-services-card h3, p {
+  overflow: hidden;
+  text-align: justify;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+.container-2-services-card h3 {
+  font-family: cursive;
+  font-weight: 300;
+}
+
+.container-2, .container-3 {
+  height: auto !important;
+}
+.container-3 img {
+  width: 800px;
+  height: auto;
+}
+.container-3 h2{
+  text-align: center;
+}
+.container-3 p{
+  font-size: 20px;
+  text-align: left;
+  font-family: sans-serif;
+  text-align: justify;
+  line-height: 1.5;
+
+}
+
+.container-3-left {
+  padding-top: 50px;
+  padding-left: 40px;
+  padding-right: 20px;
+}
+.container-3-container {
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.container-4, .container-5 {
+  height: auto;
+}
+
+.container-5 {
+  display: flex;
+}
+
+.container-4 h2{
+  text-align: center;
+  padding-bottom: 24px;
+}
+
+.fa-envelope-open, .fa-mobile-alt {
+  margin-right: 14px;
+  color: white;
+  font-size: 18px;
+}
+.fa-mobile-alt {
+  margin-right: 20px;
+}
+
+.float-left {
+  float: left;
+}
+
+.footer {
+  background-color: black;
+  width: 100%;
+  height: 60px;
+}
+
+.footer p {
+  color: white;
+  font-family: monospace;
+  font-size: 16px;
+  text-align: center;
+  padding-top: 10px;
+}
+
+.header-button-1 {
+  background: #3498db;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  transition: 0.8s;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.header-button-1:hover {
+  background: #ffffff;
+  color: #3498db;
+  text-decoration: none;
+}
+
+.header-button-2 {
+  background: white;
+  color:#3498db;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  cursor: pointer;
+  border-width: 0px;
+  border-radius: 28px;
+  margin-left: 50px;
+}
+
+.header-buttons {
+  margin-left: 380px;
+  padding-bottom: 140px;
+}
+
+.input-email {
+width: 86%;
+width: -webkit-fill-available;
+}
+
+.input-field {
+  padding: 12px;
+  margin: 8px;
+  width: -webkit-fill-available;
+  font-size: 16px;
+  font-family: monospace;
+  color: Gray;
+  border-radius: 4px;
+  border: 1px solid black;
+}
+
+.nav-bar {
+  color: red;
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nav-links-contact {
+
+  display: flex;
+  flex-direction:column;
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 12px;
+  height: 60px;
+  font-size: 16px;
+  justify-content: space-evenly;
+}
+
+.nav-links-pages {
+  text-decoration: none;
+  color: white;
+  display: flex;
+  flex-direction: row;
+  padding-top:20px;
+  padding-left: 6px;
+  margin: 0;
+}
+
+.no-decoration {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+
+.page-link {
+  color: white;
+  font-family: sans-serif;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.service-benifits-container {
+  display: grid;
+  width: 100%;
+  height: 500px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 100%;
+  justify-items: center;
+  align-items: center;
+}
+
+.service-benifits {
+  height: 400px;
+  width: 92%;
+  margin-left: 20px;
+  margin-right: 20px;
+  text-align: center;
+  padding-top: 0;
+
+}
+.service-benifits-card {
+  border: 2px solid rgba(0,0,0,0.32);
+  color: rgba(0,0,0,0.8);
+  text-shadow: 2px 2px 3px rgba(0,0,255,0.44);
+  font-size: 18px;
+  margin: 30px 40px;
+  padding: 12px 16px;
+  border-radius: 20px;
+}
+.service-benifits-img {
+
+  height: 500px;
+  width: 96%;
+  padding-top: 120px;
+}
+.service-benifits-img img{
+  width: 99%;
+  height: auto;
+}
+
+.hide{
+  display: none!important;
+}
+.message{
+  text-align: center;
+  color: red;
+}
+
+
+/* **************************** ID SELECTOR ************************** */
+#heading {
+  color: white;
+  font-size: 160px;
+  font-family: serif;
+  margin-top: 80px;
+  margin-left: 30px;
+}
+
+#heading-para {
+  color: white;
+  font-size: 34px;
+  font-family:cursive;
+  margin-left: 260px;
+  margin-bottom: 90px;
+
+}
+
+
+
+
+/* ************************************************************************************************ */
+/* ****************************************** MEDIA QUERY  **************************************** */
+/* ************************************************************************************************ */
+
+
+@viewport {
+  width: device-width;
+  zoom: 1.0;
+}
+
+@media screen and (max-width: 540px) {
+
+/* **************************** TAG SELECTOR ************************** */
+
+
+/* **************************** CLASS SELECTOR ************************** */
+.contact{
+  margin: 0;
+  padding: 8px;
+}
+
+.contact hr{
+  margin: 0 auto;
+  width: 98%;
+}
+
+.contact-form {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0;
+}
+
+.contact-form-div{
+  width: 100%;
+}
+
+.contact-form h5 {
+  font-size: 24px;
+}
+
+.contact-links {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.contact-links img{
+  height: 14px;
+
+}
+
+.contact-links a{
+  font-size: 12px;
+  width: 30%;
+  margin: 8px 4px;
+}
+
+.container h2 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  padding-top: 32px;
+}
+
+.container-1 {
+  height: 100vh;
+}
+
+.container-2-container {
+  height: auto;
+  flex-direction: column;
+  padding: 24px 16px;
+}
+
+.container-2-services-card {
+  width: 80%;
+  height: auto;
+  margin: 20px auto;
+  align-content: center;
+}
+
+.container-2-services-card h3 {
+  font-size: 18px;
+  text-align: left;
+  font-weight: 600;
+}
+
+.container-2-services-card p {
+  font-size: 18px;
+}
+
+.container-2-services-card img {
+  width: 60px;
+  height: 60px;
+}
+
+.container-3 {
+  text-align: center;
+}
+
+.container-3 img {
+    width: 99%;
+}
+
+.container-3-container {
+  flex-direction: column;
+}
+
+.container-3-left {
+  padding: 2px 16px;
+}
+
+.container-3 p {
+  font-size: 16px;
+  margin-top: 0;
+}
+
+.container-5 {
+  flex-direction: column;
+  text-align: center;
+}
+
+.footer p {
+  font-size: 14px;
+}
+
+.header-buttons {
+  margin-left: 16px;
+  margin-right: 16px;
+  padding-bottom: 0;
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+ .header-button-1, .header-button-2 {
+  font-size: 14px;
+  padding: 8px 12px;
+}
+
+.input-field{
+  font-size: 14px;
+  padding: 8px;
+}
+
+.nav-bar {
+  font-size: 16px;
+  flex-direction: column;
+}
+
+.nav-links-contact, .fa-envelope-open, .fa-mobile-alt  {
+  font-size: 10px;
+  margin-right: 4px;
+}
+
+.nav-links-pages {
+   justify-content: space-evenly;
+}
+
+.page-link {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.quote img {
+  width: 90%;
+}
+
+.service-benifits {
+  height: auto;
+  padding-bottom: 16px;
+}
+
+.service-benifits-card {
+  font-size: 16px;
+  margin: 8px auto;
+}
+
+.service-benifits-container {
+  display:block;
+  height: auto;
+}
+
+.service-benifits-img {
+  height: auto;
+  padding: 8px 8px;
+}
+
+/* **************************** ID SELECTOR ************************** */
+#heading {
+  font-size: 80px;
+  text-align: center;
+  margin: 30px auto;
+}
+
+#heading-para {
+  font-size: 20px;
+  margin-left: 20px;
+  margin-right: 20px;
+  margin-bottom: 30px;
+}
+
+}
